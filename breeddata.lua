@@ -1072,7 +1072,7 @@ rednet.send(contid, parent2)
 end
 function run()
 getParent1()
-sleep(180)
+sleep(60)
 getParent2()
 end
 

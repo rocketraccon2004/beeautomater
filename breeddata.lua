@@ -1,7 +1,5 @@
 rednet.open("left")
 local senderId, msg = rednet.recieve()
-local serumid = --enteridhere
-local apiaryid = --enteridhere
 local contid = --enteridhere
 local datafile = fs.open("datafile.txt", "r")
 local line1= datafile.readLine()
